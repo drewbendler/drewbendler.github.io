@@ -1,0 +1,480 @@
+body {
+	margin: 0px;
+	max-height: 4600px;
+	
+}
+
+.container {
+	display: grid;
+  	grid-template-rows: 50px 550px 500px 200px 1200px 200px 900px 300px 100px 300px 300px;
+  	grid-template-columns: 0px 1fr 1fr 0px;
+  	grid-gap: 0px;
+  	max-width: 100%;
+ 
+  	align-content: center;
+  	margin: 0 auto;
+}
+
+
+.blob {
+	text-align: right;
+	grid-row: 1;
+	grid-column: 3;
+
+}
+
+.logo {
+	grid-row: 1;
+	grid-column: 2;
+	font-weight: bold;
+	font-family: 'Muli', sans-serif;
+	text-align: left;
+	padding-left: 65px;
+	padding-top: 50px;
+	font-size: 45px;
+
+
+}
+
+.nav {
+	grid-column: 3;
+	grid-row: 1;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: right;
+	padding-right: 50px;
+	color: white;
+	word-spacing: 2em;
+	font-size: 12px;
+	padding-top: 10px
+
+
+}
+.header {
+	grid-column: 2;
+	grid-row: 2;
+	font-weight: bold;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 70px;
+	padding-left: 40px;
+
+}
+
+
+.lady {
+	grid-row: 2;
+	grid-column: 3;
+	text-align: center;
+	padding-top: 15px;
+	padding-left: 40px;
+	
+}
+
+.iphone-header {
+	grid-column: 2;
+	grid-row: 3;
+	padding-top: 50px;
+	text-align: center;
+	padding-left: 50px;
+}
+
+.bio {
+	grid-column: 3;
+	grid-row: 3;
+	background-image: url("img/bio-background.png");
+	background-size: cover;
+	font-family:'Source Sans Pro', sans-serif;
+	padding: 50px;
+	text-align: left;
+	width: 80%;
+	padding-left: 80px;
+
+}
+
+button {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 30px;
+	color: gray;
+}
+
+
+h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 45px;
+	padding: 25px;
+	padding-top: 0px;
+}
+
+.OS, .biography, .prici {
+	color: #9a43cc;
+	font-size: 25px;
+}
+
+.services {
+	grid-row: 4;
+	grid-column: 2 / span 3;
+
+	padding-left: 45px;
+}
+
+
+.six-block {
+
+	grid-row: 5;
+	grid-column: 2 / span 3;
+	padding: 0px;
+	background-image: url("img/Group 1238.png");
+	background-size: cover;
+	background-repeat: none;
+	
+}
+
+.first-3, .second-3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin: 30px;
+	padding: 15px;
+
+	
+	
+}
+
+
+h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 25px;
+}
+
+h4 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+}
+
+h5 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+	color: #9a43cc;;
+}
+
+.social-media-manage, .social-growth, .branding {
+	height: 350px;
+	width: 350px;
+	padding: 25px;
+	border-radius: 15px;
+	box-shadow: 1px 1px 10px 1px gray;
+	background-color: white;
+
+}
+
+.influ, .paid-ad, .content {
+	height: 350px;
+	width: 350px;
+	padding: 25px;
+	border-radius: 15px;
+	box-shadow: 1px 1px 10px 1px gray;
+	background-color: white;
+
+
+}
+
+button {
+	padding: 3px;
+	justify-content: right;
+	background-color: #9a43cc;
+	color: white;
+	font-family: font-family: 'Source Sans Pro', sans-serif;
+	padding: 10px;
+	border-radius: 30px;
+	font-size: 10px;
+	line-height: 1.5em;
+}
+
+.service-icon {
+	text-align: center;
+	padding: 10px;
+}
+
+
+
+.pricing {
+	grid-row: 7;
+	grid-column: 2 / span 3;
+	background-color: #e1cae8;
+	
+
+	
+}
+
+.price-plans {
+	margin: 30px;
+	padding: 15px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+
+	
+}
+
+.price-heading {
+	grid-row: 6;
+	grid-column: 2 / span 3;
+	text-align: center;
+	background-color: #e1cae8;
+}
+
+.gold, .plat, .silver {
+	height: 550px;
+	width: 400px;
+	border-radius: 15px;
+	box-shadow: 1px 1px 10px 1px gray;
+	background-color: white;
+	text-align: center;
+	margin: 10px;
+	padding: 50px;
+	padding-top: 0px;
+	font-size: 5px;
+
+
+}
+
+.cd {
+	line-height: 1.5em;
+	font-size: 30px;
+	padding: 10px;
+
+}
+
+
+.news {
+	padding-top: 90px;
+	grid-row: 8;
+	grid-column: 2 / span 3;
+	text-align: center;
+
+}
+
+.email-button {
+	padding-top: 0px;
+	grid-row: 9;
+	grid-column: 2 / span 3;
+	text-align: center;
+}
+form {
+	display: inline-block;
+
+
+}
+
+input {
+	padding: 15px;
+	margin-right: 15px;
+	width: 500px;
+	border-radius: 10px;
+	background-color: #f0f0f0;
+	font-size: 20px;
+
+}
+
+.sub {
+	padding: 10px;
+	line-height: 1.5em;
+	font-size: 25px;
+	width: 200px;
+}
+
+
+
+footer {
+	grid-row: 11;
+	grid-column: 2 / span 3;
+	background-color: #622d73;
+
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	color: white;
+	line-height: 2em;
+
+}
+
+ul {
+	list-style-type: none;
+}
+
+
+.ft-slogan {
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-left: 30px;
+
+}
+.quicklinks, .hours, .contact {
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-left: 15px;
+}
+.bt-h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 40px;
+}
+
+
+@media screen and (max-width: 1350px) {
+
+	.container {
+		grid-template-rows: 120px 600px 800px 350px 4200px 200px 900px 300px 100px 300px 500px;
+	}
+
+.logo {
+	font-size: 80px;
+
+}
+
+.header {
+	padding: 25px;
+
+}
+.bio {
+	padding: 55px;
+	padding-top: 0px;
+	font-size: 55px;
+}
+
+.first-3, .second-3 {
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 2000px;
+
+}
+
+.social-media-manage, .social-growth, .branding, .influ, .paid-ad, .content  {
+	width: 900px;
+	height: 550px;
+}
+
+ h3 {
+	font-size: 45px;
+}
+h4 {
+	font-size: 35px;
+}
+
+.service-icon {
+	text-align: left;
+	padding: 10px;
+
+}
+
+.services {
+	text-align: left;
+}
+
+button {
+	padding: 20px;
+	font-size: 25px;
+}
+
+footer {
+	font-size: 30px;
+}
+}
+
+@media screen and (min-width: 2500px) {
+	.container {
+		width:70%;
+		grid-template-rows: 120px 600px 700px 150px 1500px 200px 900px 300px 100px 300px 500px;
+	}
+
+h1 {
+	font-size: 55px;
+}
+
+h2 {
+	font-size: 45px;
+}
+
+p {
+	font-size: 35px;
+}
+
+h4 {
+	font-size: 25px;
+}
+
+.social-media-manage, .social-growth, .branding, .influ, .paid-ad, .content  {
+	width: 450px;
+	height: 500px;
+}
+
+button {
+	padding: 15px;
+	font-size: 15px;
+}
+
+footer {
+	font-size: 25px;
+}
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
