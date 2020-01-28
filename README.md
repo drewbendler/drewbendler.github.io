@@ -1,16 +1,30 @@
 # Drew Bendler 
 SEI 35
 
-## Website mock up 
+## Gener8 - Social Media 
 
-Social media consultant webpage
+Social media consultant responsiv webpage
 
 
 ## Built with
--html
--css
+
+-Sublime
+	-html
+	-css
 
 
+## Deployment 
 
+drewbendler.github.io
 
+## Contributing 
 
+Drew Bendler
+
+## Version 
+
+1.0
+
+## Acknowledgment 
+
+First time building a reponsive site from scratch, took me 20+ hours but the end result is something I am proud of.
