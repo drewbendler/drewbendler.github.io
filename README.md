@@ -3,12 +3,13 @@ SEI 35
 
 ## Gener8 - Social Media 
 
-Social media consultant responsiv webpage
+Social media consultant responsive webpage
 
 
 ## Built with
 
--Sublime
+Sublime
+
 	-html
 	-css
 
